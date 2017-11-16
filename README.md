@@ -1,2 +1,0 @@
-# duchang
-init

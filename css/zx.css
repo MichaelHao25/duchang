@@ -1,0 +1,67 @@
+body,p,h1,h2,h3,h4,h5,h6,li,span,i,ul,img,a,strong,input{margin:0;padding:0; font-family: "microsoft yahei";}
+body{ font-size:14px;}
+li{list-style-type:none; float:left;}
+a{text-decoration:none;outline: none; color:inherit;}
+th,td{ padding:0;}
+table{ border-collapse:collapse;}
+img{border:none;}
+i{font-style:normal}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+input,select,textarea{outline:none;text-indent:6px;}
+textarea{resize:none;}
+div{margin:0 auto;}
+.fl{float: left;}
+.fr{float: right;}
+.wid{width:1200px;}
+
+
+.top{
+	width: 100%;
+	display: table;
+}
+.top .top-t{
+	width: 100%;
+	height: 40px;
+	background: #131313;
+}
+.top .top-t h6{
+	color: #a5906d;
+	font-size: 12px;
+	margin-left: 13px;
+	float: left;
+	line-height: 40px;
+}
+.top .top-t ul{
+	float: right;
+	min-width: 100px;
+	display: table;
+}
+.top .top-t ul li{
+	margin-top: 14px;
+	font-size: 12px;
+	border-right: 2px solid #a5906d;
+	color: #a5906d;
+	padding: 0 12px;
+	line-height: 12px;
+}
+.top .top-t ul li.wl1{
+	color: #c8b413;
+}
+.top .top-t ul li.wl2{
+	color: #961b10;
+}
+.top .top-t ul li.wl3{
+	border-right: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
