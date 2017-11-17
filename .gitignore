@@ -20,12 +20,18 @@
 ##/source.cpp
 ##/source.h
 
-*
+#*
+#!/css
+#!/img
+#!/input
+#!/js/*
+#!*.html
+#!LICENSE
+#!readme.txt
 .gitignore
-!/css/**/
-!/img/**/
-!/input/**/
-!/js/*
-!*.html
-!LICENSE
-!readme.txt
+back
+cmd.lnk
+gulpfile.js
+gulpfile.js.back
+node_modules
+package.json
