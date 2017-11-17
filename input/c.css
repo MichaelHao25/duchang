@@ -213,3 +213,22 @@
 		line-height: 2;
 	}
 }
+
+
+
+.hcl-add-info{
+	padding: 40px 0;
+	.zk_form{
+		margin-left: 30px;
+		table{
+			width: 100%;
+			font-size: 14px;
+			color: #b5b6b5;
+			line-height: 28px;
+			span.yellow{
+				padding-left: 20px;
+				color: #f5b403;
+			}
+		}
+	}
+}
