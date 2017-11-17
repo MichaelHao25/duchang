@@ -1,8 +1,6 @@
 *
-.gitignore
-cmd.*
 !/css/
 !/img/
 !/input/
 !/js/
-!/*.html
+!*.html
