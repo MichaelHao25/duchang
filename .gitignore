@@ -22,10 +22,10 @@
 
 *
 .gitignore
-!/css/
-!/img/
-!/input/
-!/js/
+!/css/**/
+!/img/**/
+!/input/**/
+!/js/*
 !*.html
 !LICENSE
 !readme.txt
