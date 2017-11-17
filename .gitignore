@@ -21,6 +21,7 @@
 ##/source.h
 
 *
+.gitignore
 !/css/
 !/img/
 !/input/
