@@ -55,13 +55,81 @@ div{margin:0 auto;}
 }
 
 
+/*----------------------注册----------------*/
+
+
+.bj_1{background: #1b1b1b;}
+
+.banner{position: relative;width: 100%;display: table;border-bottom: 1px solid #fed959;border-top: 1px solid #5a5132;margin-bottom: 30px;}
+.banner i{position: absolute;z-index: 3;top: 0;left: 50%;width: 165px;height: 28px;margin-left: -87.5px;}
+.banner i img{width: 100%;}
+.banner .box{position: relative;width: 100%;height: 340px;}
+.banner .box ul{}
+.banner .box ul li{width: 100%;height: 340px;}
+.banner .box ul li img{width: 100%;min-height: 100%;}
+.post{position: absolute;bottom: 0;left: 0;width: 100%;height: 40px;line-height: 40px;background: #000;background: rgba(0,0,0,.8);font-size: 14px;color: #fcd052;text-align: left;overflow: hidden;}
+.post ul{float: left;padding-left: 50px;}
+.post ul li{position: absolute;width: 100%;height: 100%;}
+.post ul li a{color: #b9bdbd;display: block;-webkit-transition: .3s; -o-transition: .3s; transition: .3s;}
+.post ul li a:hover{color: #f00;}
+
+.zk_container{margin-bottom: 75px;display: table;}
+
+.zk_sidebar{width: 222px;display: table;float: left;border-radius: 15px;border: 1px solid #000;background: #21211f;padding: 0 20px;-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+.zk_sidebar .top2{padding-top: 25px;width: 185px;overflow: hidden;}
+.zk_sidebar .top2 b{font-size: 20px;color: #ffea00;display: block;white-space: nowrap;overflow: hidden;-ms-text-overflow: ellipsis; text-overflow: ellipsis;}
+.zk_sidebar .top2 span{font-size: 14px;color: #c4b38a;white-space: nowrap;overflow: hidden;-ms-text-overflow: ellipsis; text-overflow: ellipsis;display: block;margin-bottom: 15px;} 
+.zk_sidebar .top2 a{display: block;width: 183px;height: 69px;border: 1px solid #4c4c45;margin-bottom: 35px;}
+.zk_sidebar .top2 a img{width: 100%;}
+.zk_sidebar ul{}
+.zk_sidebar ul li{width: 100%;height: 40px;line-height: 40px;border: 1px solid #000;border-radius: 30px;text-align: center;font-size: 14px;color: #fff;margin-bottom: 13px;background: #212220;background: linear-gradient(1deg, #141713, #343434);}
+.zk_sidebar ul li a{display: block;background: url(../img/ico_1.png) 20px center no-repeat;}
+.zk_sidebar ul li:nth-child(2) a{;background: url(../img/ico_2.png) 20px center no-repeat;}
+.zk_sidebar ul li:nth-child(3) a{;background: url(../img/ico_3.png) 22px center no-repeat;}
+.zk_sidebar ul li:nth-child(4) a{;background: url(../img/ico_4.png) 25px center no-repeat;}
+.zk_sidebar ul li:nth-child(5) a{;background: url(../img/ico_5.png) 20px center no-repeat;}
+.zk_sidebar ul li:nth-child(6) a{;background: url(../img/ico_6.png) 22px center no-repeat;}
+.zk_sidebar ul li:nth-child(7) a{;background: url(../img/ico_7.png) 20px center no-repeat;}
+.zk_sidebar ul li:nth-child(8) a{;background: url(../img/ico_8.png) 20px center no-repeat;}
+.zk_sidebar ul li:nth-child(9) a{;background: url(../img/ico_9.png) 20px center no-repeat;}
+
+.show{width: 927px;float: right;;border-radius: 15px;border: 1px solid #000;background: #21211f;margin-right: 20px;-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;padding: 30px 40px 0;}
+.show .box{}
+.show .box h2{font-size: 27px;color: #c4b38a;font-weight: normal;padding-bottom: 30px;border-bottom: 1px dashed #4b5249;margin-bottom: 20px;}
+.zk_registered{position: relative;width: 100%;display: table;border: 2px solid #424147;border-radius: 15px;padding: 20px 0;margin-bottom: 50px;}
+.zk_registered h3{position: absolute;left: 40px;top: -8px;font-size: 14px;color: #c4b38a;background: #21211f;padding: 0 15px;}
+.zk_registered .zk_form{margin-left: 100px;}
+.zk_registered .zk_form ul{}
+.zk_registered .zk_form ul li{width: 100%;font-size: 14px;color: #4a4a4a;line-height: 26px;margin-bottom: 11px;}
+.zk_registered .zk_form ul li:nth-child(2) input{margin-bottom: 10px;}
+.zk_registered .zk_form ul li:nth-child(3) input{margin-bottom: 10px;}
+.zk_registered .zk_form ul li input{width: 180px;background: #4a4a4a;border: none;height: 26px;line-height: 26px;text-indent: 10px;color: #fff;font-size: 14px;}
+.zk_registered .zk_form ul li select{width: 180px;background: #4a4a4a;border: none;height: 26px;line-height: 26px;text-indent: 10px;color: #fff;font-size: 14px;}
+.zk_registered .zk_form ul li em{font-style: inherit;float: left;width: 110px;text-align: right;}
+.zk_registered .zk_form ul li i{color: #f00;}
+.zk_registered .zk_form ul li p{padding-left: 110px;}
+.zk_registered .zk_form ul li p span{color: #da0f0f;}
+.zk_registered .zk_form ul li a{width: 75px;height: 100%;line-height: 26px;background: #a40000;font-size: 14px;color: #fff;border-radius: 3px;display: inline-block;margin-left: 10px;text-align: center;}
+
+.zk_bottom{}
+.zk_bottom label{line-height: 18px;font-size: 14px;color: #7e7e7e;vertical-align: middle;margin-bottom: 40px;display: inline-block;margin-left: 10px;}
+.zk_bottom label input{width: 18px;height: 18px;-webkit-appearance: none; -moz-appearance: none; appearance: none;background: #7f7f7f;margin-right: 10px;border: none;vertical-align: middle;}
+.zk_bottom label input:checked{width: 18px;height: 18px;background: url(../img/ico_11.jpg) no-repeat;border: none;}
+.zk_bottom label a{color: #da0f0f;font-size: 14px;}
+.zk_bottom .btn{width: 27%;display: table;margin: 0 auto 45px;}
+.zk_bottom .btn a{width: 100px;height: 30px;line-height: 30px;background: #a40000;text-align: center;font-size: 14px;color: #fff;border-radius: 3px;}
+.zk_bottom .btn .fr{background: #f39801;}
+.zk_bottom .tip{margin-bottom: 30px;}
+.zk_bottom .tip p{font-size: 12px;color: #a6a6a6;line-height: 1.5;margin-bottom: 5px;}
+.zk_bottom .tip p i{color: #f00;}
 
 
 
+/*--------------------优惠活动-------------*/
 
 
-
-
-
-
-
+.zk_list{margin-bottom: 60px;margin-top: 40px;}
+.zk_list ul{width: 1000px;display: table;margin: 0 auto;}
+.zk_list ul li{width: 100%;height: 158px;margin-bottom: 20px;overflow: hidden;}
+.zk_list ul li a{display: block;}
+.zk_list ul li a img{width: 100%;}
