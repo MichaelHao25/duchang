@@ -327,5 +327,11 @@
 	$("#marquee2").kxbdMarquee({isEqual:false});
 	$("#marquee4").kxbdMarquee({direction:"up",isEqual:false});
 })();
+function rand(max, min) {
+    return Math.round(Math.random() * (max - min) + min);
+}
+setInterval(function(){
+$('.list-roll-font p span').text(parseInt($('.list-roll-font p span').text())+rand(100,10));
+},500)
 </script>
 </html>

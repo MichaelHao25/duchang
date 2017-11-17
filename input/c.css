@@ -138,3 +138,75 @@
 		}
 	}
 }
+
+
+.hcl-rank{
+	/*height: 1201px;*/
+	padding: 70px 0;
+	background:url(../img/hico10.png) center center/auto 100% no-repeat;
+	.wrap{
+		width: 1200px;
+		box-sizing: border-box;
+		background: rgba(0,0,0,0.3);
+		border: 1px solid #35331c;
+		.title{
+			padding: 20px 0 30px;
+			small{
+				display: block;
+				padding-top: 10px;
+			}
+			img{
+				display: block;
+				margin: 0 auto;
+			}
+		}
+		.content{
+			padding-bottom: 80px;
+			text-align: center;
+			.item{
+				display: inline-block;
+				width: 325px;
+				margin: 0 21px;
+				box-sizing: border-box;
+				padding: 30px 60px 50px;
+				background:url(../img/hico13.png) center top no-repeat,
+				url(../img/hico13.png) center bottom no-repeat,
+				url(../img/hico37.png) left center no-repeat,
+				url(../img/hico37.png) right center no-repeat;
+				li{
+					float: none;
+					font-size: 0;
+					background:url(../img/hico38.png) center top no-repeat;
+					&:last-child{
+					background:url(../img/hico38.png) center top no-repeat,
+					url(../img/hico38.png) center bottom no-repeat;
+					}
+					&>*{
+						display: inline-block;
+						font-size: 12px;
+						vertical-align: middle;
+						color: #d7be69;
+						line-height: 38px;
+						vertical-align: middle;
+					}
+					.pic{
+						width: 10%;
+						text-align: left;
+					}
+					.name{
+						width: 50%;
+						text-align: center;
+					}
+					.money{
+						width: 40%;
+						text-align: right;
+					}
+				}
+				h4{
+					padding-bottom: 20px;
+				}
+
+			}
+		}
+	}
+}
