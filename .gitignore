@@ -1,6 +1,7 @@
-node_modules/*
-back/*
+/*
 .gitignore
-cmd.lnk
-gulpfile.js.back
-gulpfile.js
+!/css/
+!/img/
+!/input/
+!/js/
+!/*.html
